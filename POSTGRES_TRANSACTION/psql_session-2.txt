@@ -1,0 +1,75 @@
+Server [localhost]:
+Database [postgres]:
+Port [5432]:
+Username [postgres]:
+Password for user postgres:
+psql (14.7)
+WARNING: Console code page (437) differs from Windows code page (1252)
+         8-bit characters might not work correctly. See psql reference
+         page "Notes for Windows users" for details.
+Type "help" for help.
+
+postgres=# \c new_practice_db
+You are now connected to database "new_practice_db" as user "postgres".
+new_practice_db=# \dt
+          List of relations
+ Schema |   Name   | Type  |  Owner
+--------+----------+-------+----------
+ public | accounts | table | postgres
+(1 row)
+
+
+new_practice_db=# SELECT * FROM accounts;
+ id |    name     |  balance
+----+-------------+------------
+  1 | Suraj       |   10000.00
+  2 | Suraj Aswal | 4000000.00
+(2 rows)
+
+
+new_practice_db=# SELECT * FROM accounts;
+ id |    name     |  balance
+----+-------------+------------
+  1 | Suraj       |   10000.00
+  2 | Suraj Aswal | 4000000.00
+  3 | John        |    5000.00
+(3 rows)
+
+
+new_practice_db=# SELECT * FROM accounts;
+ id |    name     |  balance
+----+-------------+------------
+  1 | Suraj       |   10000.00
+  2 | Suraj Aswal | 4000000.00
+  3 | John        |    5000.00
+(3 rows)
+
+
+new_practice_db=# SELECT * FROM accounts;
+ id |    name     |  balance
+----+-------------+------------
+  1 | Suraj       |   10000.00
+  2 | Suraj Aswal | 4000000.00
+  3 | John        |    5000.00
+(3 rows)
+
+
+new_practice_db=# SELECT * FROM accounts;
+ id |    name     |  balance
+----+-------------+------------
+  3 | John        |    5000.00
+  2 | Suraj Aswal | 4001000.00
+  1 | Suraj       |    9000.00
+(3 rows)
+
+
+new_practice_db=# SELECT * FROM accounts;
+ id |    name     |  balance
+----+-------------+------------
+  3 | John        |    5000.00
+  2 | Suraj Aswal | 4001000.00
+  1 | Suraj       |    9000.00
+(3 rows)
+
+
+new_practice_db=#
