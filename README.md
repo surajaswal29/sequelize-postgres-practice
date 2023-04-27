@@ -25,7 +25,8 @@ Created a basic user registration API using Sequelize ORM + Postgres DB + Nodejs
 </pre>
 
 <h3>Result</h3>
-<img src="./work_screenshot/API_SS/POSTMAN_RESULT.png">
+<a href="https://raw.githubusercontent.com/surajaswal29/sequelize-postgres-practice/127e79eb281ce4ee9276dfba16419a9aa1d5274c/work_screenshot/API_SS/POSTMAN_RESULT.png"> View Postman Result </a>
+<a href="">Postgres PG Admin Result</a>
 
 <h3>Pg admin</h3>
 <img src="work_screenshot\API_SS\PG_ADMIN.png">
